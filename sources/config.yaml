@@ -1,0 +1,11 @@
+sources:
+  - xenopose.ufo
+outputDir: "../fonts"
+familyName: XenoPose
+buildVariable: false
+buildOTF: true
+buildTTF: true
+buildWebfont: true
+autohintTTF: false
+autohintOTF: false
+extraFontmakeArgs: --overlaps-backend pathops
